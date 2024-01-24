@@ -13,15 +13,14 @@
     "react-icons": "^4.8.0",
     "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.11.2",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "sass": "^1.62.1"
   },
   "scripts": {
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "record": "node seed/seed_db_users.js",
-    "seed-users":"node seed/seed_db_users.js",
-  "start": "node app.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
