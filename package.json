@@ -17,10 +17,11 @@
     "sass": "^1.62.1"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "record": "node seed/seed_db_users.js",
+    "seed-users":"node seed/seed_db_users.js",
+  "start": "node app.js"
   },
   "eslintConfig": {
     "extends": [
